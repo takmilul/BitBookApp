@@ -69,6 +69,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ModelClass\User.cs" />
+    <Compile Include="ModelClass\UsersBasicInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\UserRegistrationUI.aspx.cs">
       <DependentUpon>UserRegistrationUI.aspx</DependentUpon>
